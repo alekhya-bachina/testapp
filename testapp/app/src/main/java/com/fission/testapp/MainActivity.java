@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
     CustomDrawerAdapter adapter;
 
     List<DrawerItem> dataList;
-    String strv ;
+    private String strv ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
