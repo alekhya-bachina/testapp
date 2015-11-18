@@ -19,7 +19,7 @@ public class FragmentOne extends Fragment {
 
 
 
-
+Button btnsignout;
 Button btnlogout;
 	TextView tvname;
 EditText userName;
@@ -45,7 +45,7 @@ public FragmentOne() {
 
        String name= getActivity().getIntent().getExtras().getString("username");
         System.out.println("================="+name);
-        
+
 
         tv.setText(name   +   " welcome to the android tutorial  ");
 
