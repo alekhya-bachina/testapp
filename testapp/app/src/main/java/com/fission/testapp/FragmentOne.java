@@ -42,8 +42,10 @@ public FragmentOne() {
         View view = inflater.inflate(R.layout.fragment_layout_one, container, false);
 
         TextView tv=(TextView)view.findViewById(R.id.welcometxt);
+
        String name= getActivity().getIntent().getExtras().getString("username");
         System.out.println("================="+name);
+        
 
         tv.setText(name   +   " welcome to the android tutorial  ");
 

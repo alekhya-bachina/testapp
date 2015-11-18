@@ -17,6 +17,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.ListView;
 
 public class MainActivity extends Activity {
@@ -31,6 +32,7 @@ public class MainActivity extends Activity {
 
     List<DrawerItem> dataList;
     private String strv ;
+    private EditText editText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
