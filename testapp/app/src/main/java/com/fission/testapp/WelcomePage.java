@@ -21,13 +21,13 @@ import android.widget.TextView;
 public class WelcomePage extends Activity {
     private Button btnlogout;
     AlertDialog.Builder alertDialog;
-    private EditText  txtFirstName;
+    private EditText  edtFirstName;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-         txtFirstName= (EditText) findViewById(R.id.edtfirstname1);
+         edtFirstName= (EditText) findViewById(R.id.edtfirstname1);
         setContentView(R.layout.welcome);
 
       TextView txt = (TextView)findViewById(R.id.welcometxt);
